@@ -7,20 +7,20 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: white;
+  color: white; /* Text color for general content on black background */
 }
 
 /* Style the header */
 h1 {
   text-align: center;
-  color: #333;
+  color: #ffffff; /* White font color for the header */
   margin-top: 30px;
 }
 
 /* Style the student info */
 h4 {
   text-align: center;
-  color: #777;
+  color: #cccccc; /* Light gray font color for student info */
 }
 
 /* Style the bio-box */
@@ -31,6 +31,7 @@ h4 {
   width: 80%;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #ffffff; /* White font color for content inside bio-box */
 }
 
 /* Style the social links */
@@ -41,7 +42,7 @@ h4 {
 }
 
 .social-links h5 {
-  color: #333;
+  color: #ffffff; /* White font color for social links heading */
 }
 
 .social-links li {
