@@ -1,3 +1,56 @@
+/* Reset default styles for the page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Style the header */
 h1 {
-    text-align: center;
+  text-align: center;
+  color: #333;
+  margin-top: 30px;
+}
+
+/* Style the student info */
+h4 {
+  text-align: center;
+  color: #777;
+}
+
+/* Style the bio-box */
+.bio-box {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the social links */
+.social-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-links h5 {
+  color: #333;
+}
+
+.social-links li {
+  display: inline;
+  margin: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #0077b5; /* LinkedIn blue color */
+}
+
+/* Hover effect for social links */
+.social-links a:hover {
+  color: #ff4500; /* Orange color on hover */
 }
